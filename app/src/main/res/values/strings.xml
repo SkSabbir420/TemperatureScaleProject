@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Temperature Scale</string>
+    <string name="Welcome">ID: 193311060</string>
+    <string name="result">Result</string>
+    <string name="Enter_your_Temperature">Temperature</string>
+    <string name="C" >k->C</string>
+    <string name="C2" >F->C</string>
+    <string name="k" >C->K</string>
+    <string name="k2" >F->K</string>
+    <string name="F">C->F</string>
+    <string name="F2">K->F</string>
+
+</resources>

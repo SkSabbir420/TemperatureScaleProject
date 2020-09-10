@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:text="@string/Welcome"
+    android:textAlignment="center"
+    android:textColor="@android:color/holo_orange_dark"
+    android:textSize="22sp"
+    android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/result"
+        android:textColor="#FA71CD"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="115dp"
+        android:hint="@string/Enter_your_Temperature"
+        android:textAlignment="center"
+        android:textColorHint="#FA71CD"
+        android:inputType="number"
+        android:padding="16dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/coustom_button"
+            android:onClick="Calc"
+            android:text="@string/k"
+            android:textColor="@drawable/button_text_color"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/coustom_button"
+            android:onClick="Calc"
+            android:text="@string/F"
+            android:textColor="@drawable/button_text_color"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/F2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/coustom_button"
+            android:onClick="Calc"
+            android:text="@string/F2"
+            android:textColor="@drawable/button_text_color"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/coustom_button"
+            android:onClick="Calc"
+            android:text="@string/C"
+            android:textColor="@drawable/button_text_color"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/C2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/coustom_button"
+            android:onClick="Calc"
+            android:text="@string/C2"
+            android:textColor="@drawable/button_text_color"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/K2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/coustom_button"
+            android:onClick="Calc"
+            android:text="@string/k2"
+            android:textColor="@drawable/button_text_color"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+</LinearLayout>
